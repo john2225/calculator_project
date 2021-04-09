@@ -1,0 +1,28 @@
+			Requirements gathering and analysis: Calculator 
+
+	This document specifies the functional requirements for multi-functional program. The program is designed with the usual standard functions (add, subtract, multiply, divide and equal). It is designed to be easy to use as regular calculator.
+	The program will be written in standard C++, as compiled by the GNU C++ compiler(g++). It shall use only standard C++ library functions. The program shall be usable on any system which supports the g++ compiler. In addition to decimal, the calculator will be able to convert numbers to binary or hexadecimal. 
+	INPUT:
+	The input function will accept input from the terminal, validate the input, and then send that input to the calculate function. 
+	cin <number> 
+	cin [arithmetic operator]
+	cin <number>
+	
+An <arithmetic operator> is one of:
+	+ for addition
+	- for subtraction
+	* for multiplication
+	/ for division
+
+If an illegal operator is detected, an error message is to be printed.
+	OUTPUT:
+	This function will display the results of a calculator. Results should be displayed when the equals sign ( = ) is input.
+	
+	Converter:
+	To enable convert mode, at the first user should input:
+	cin [converter]
+	and switch again to calculator
+	cin [calculator]
+	
+	
+	       
